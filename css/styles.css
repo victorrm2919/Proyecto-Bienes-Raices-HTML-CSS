@@ -478,10 +478,13 @@ h4 {
 }
 
 /* ANUNCIOS */
-.resumen-propiedad {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+@media (min-width: 768px) {
+    .resumen-propiedad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 /* CONTACTO */
