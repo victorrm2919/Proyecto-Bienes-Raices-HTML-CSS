@@ -275,6 +275,13 @@ h4 {
     justify-content: space-evenly;
     flex: 1;
     max-width: 50rem; 
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .iconos-caracteristicas {
+        margin: 0;
+    }
 }
 
 .iconos-caracteristicas li{
@@ -478,6 +485,10 @@ h4 {
 }
 
 /* ANUNCIOS */
+
+.resumen-propiedad {
+    text-align: center;
+}
 
 @media (min-width: 768px) {
     .resumen-propiedad {
